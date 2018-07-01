@@ -7,9 +7,10 @@
  @site: www.xxxx.com  
  @software: PyCharm  @since:python 3.5.2 on 2016/11/3.10:49  
  """
+# 1、Agent实现方式
 '''
     缺点：有Agent
-    优点：
+    优点：自动提交
 '''
 
 ## 1、采集数据
@@ -26,15 +27,13 @@ data_dict = {
     'nic',{},
     'disk',{},
     'mem',{}
-
 }
 
 ## 发送数据到API
 requests.post('htttp:www.127.0.0.1:8000/assstes.html',data= data_dict)
 
-
 '''
-本代码放在每一台主机上
+本代码放在每一台Agent主机上
 '''
 
 

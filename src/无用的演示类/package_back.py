@@ -61,9 +61,9 @@ def pack():
     1、资产管理 -- （基础条件）excel--手动填写（自动汇报，还有变更记录）
         采集数据四种方案：
             1、agent ：subprocess 定时提交到API -- 入库
-            2、ssh ：paramiko 中控： 远程连接  速度比较慢
+            2、ssh ：paramiko 中控： 远程连接  速度比较慢 -- ansibe、fabric也是基于paramiko
             3、saltStack ：依赖 Saltstack软件 -- 
-            4、-----暂时不学urby
+            4、-----暂时不学urby 
         API --- 中控机、或者直接是agent Master  --->
         
         
