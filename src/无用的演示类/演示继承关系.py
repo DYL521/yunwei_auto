@@ -17,7 +17,7 @@ class Bbh:
 class Mr(Bbh):
 
     def songz(self):
-        print('宋--------2')  ## 5、执行这个方法！！！！顺序不能错
+        print('宋--------2')  ## 5、执行这个方法！！！！顺序不能错,z找到就结束，不继续向上找了
 
     def xiaowen(self):
         self.poress_request()
@@ -28,6 +28,7 @@ class A:
 
 
 class B(A,Mr): ## 多继承
+
     def poress_request(self):
         print('yun')
 
@@ -37,6 +38,10 @@ class B(A,Mr): ## 多继承
 
 obj = B()   ## 1
 obj.server()## 2
+
+
+
+
 
 
 
